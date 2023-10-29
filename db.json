@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "1json-server",
+      "email": "1typicode",
+      "phone":"398349794"
+    },
+    {
+      "id": 2,
+      "name": "2json-server",
+      "email": "31typicode",
+      "phone":"3398349794"
+    },
+    {
+      "id": 3,
+      "name": "31json-server",
+      "email": "31typicode",
+      "phone":"398349794"
+    },
+    {
+      "id": 4,
+      "name": "41json-server",
+      "email": "41typicode",
+      "phone":"4398349794"
+    },
+    {
+      "id": 5,
+      "name": "51json-server",
+      "email": "51typicode",
+      "phone":"5398349794"
+    },
+    {
+      "id": 6,
+      "name": "61json-server",
+      "email": "61typicode",
+      "phone":"6398349794"
+    },
+    {
+      "id": 7,
+      "name": "71json-server",
+      "email": "71typicode",
+      "phone":"7398349794"
+    },
+    {
+      "id": 8,
+      "name": "81json-server",
+      "email": "81typicode",
+      "phone":"8398349794"
+    }
+  ]
+  
+}
