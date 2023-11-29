@@ -8,6 +8,8 @@
  *
  *   * rafc 사용
  *
+ *
+ *
  ***************************************************/
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -26,6 +28,7 @@ import Alertpage from './AlertPage';
 import SecondMenu from './Menu/SecondMenu';
 import MuiBox_01 from './SecondMenu/MuiBox_01';
 import ThirdMenu from './Menu/ThirdMenu';
+import Dialog_01 from './ThirdMenu/Dialog_01';
 
 //
 //
@@ -54,6 +57,10 @@ function App() {
         {/* ========================================
          */}
         <Route path='/MuiBox_01' element={<MuiBox_01></MuiBox_01>}></Route>
+
+        {/* ============           ===================== */}
+
+        <Route path='/dialog_01' element={<Dialog_01></Dialog_01>}></Route>
       </Routes>
     </BrowserRouter>
   );

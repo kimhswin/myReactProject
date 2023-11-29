@@ -26,9 +26,6 @@ const ThirdMenu = () => {
     <div>
       <AppBar>
         <Toolbar>
-          {/* <IconButton color="inherit">
-                        <MenuIcon></MenuIcon>
-                    </IconButton> */}
           <h2> DialogBox :</h2>
           {/* <Box sx={{ flexGrow: 1 }}></Box> */}
           <div style={{ marginLeft: 30 }}></div>
@@ -39,7 +36,7 @@ const ThirdMenu = () => {
                         <Link to="/auto">Autocomplete</Link>
                         <Link to="/check">Checkbox</Link> */}
 
-            <Link to='/table'>Table</Link>
+            <Link to='/dialog_01'>Dialog_01</Link>
             <Link to='/MuiBox_01'>MuiBox_01</Link>
             <div>Second Menu</div>
             <div>Tecond Menu</div>
