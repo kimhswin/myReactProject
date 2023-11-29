@@ -1,11 +1,14 @@
-//
-//  https://www.youtube.com/watch?v=out4chmZo3E 파일을 기본으로 수정했다.
-//  npm install @mui/material @emotion/react @emotion/styled
-//  npm install react-router-dom
-//  npm install @mui/icons-material
-//
-//
-//    rafc
+/***************************************************
+ *        FileName : App.js
+ *        Date : 11.29
+ *
+ *   npm install @mui/material @emotion/react @emotion/styled
+ *   npm install react-router-dom
+ *   npm install @mui/icons-material
+ *
+ *   * rafc 사용
+ *
+ ***************************************************/
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
@@ -22,6 +25,7 @@ import Ratingctl from './Ratingctl';
 import Alertpage from './AlertPage';
 import SecondMenu from './Menu/SecondMenu';
 import MuiBox_01 from './SecondMenu/MuiBox_01';
+import ThirdMenu from './Menu/ThirdMenu';
 
 //
 //
@@ -32,6 +36,10 @@ function App() {
       <div style={{ marginTop: 5 }}>
         <SecondMenu></SecondMenu>
       </div>
+      <div style={{ marginTop: 5 }}>
+        <ThirdMenu></ThirdMenu>
+      </div>
+
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
