@@ -29,7 +29,7 @@ const ThirdMenu = () => {
           {/* <IconButton color="inherit">
                         <MenuIcon></MenuIcon>
                     </IconButton> */}
-          <h2> MUI :</h2>
+          <h2> DialogBox :</h2>
           {/* <Box sx={{ flexGrow: 1 }}></Box> */}
           <div style={{ marginLeft: 30 }}></div>
           <Stack direction='row' spacing={2}>
